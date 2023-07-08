@@ -1,0 +1,447 @@
+/* --------------------------------------------------------------------------------*/
+/* Estilos del Index (inicio)*/
+body {
+    
+    background-image: url(../Imgs/FondoImagenTransparente_1.jpg); /*imagen de fondo*/
+    background-repeat: no-repeat; /*no repetir la imagen*/
+    background-size: cover; /*tamaño de la imagen*/
+    background-attachment: fixed; /*fijar la imagen*/
+    background-position: center; /*posición de la imagen*/
+}
+/*----------------------------PROBANDO NUEVA RAMA*/
+/* --------------------------------------------------------------------------------*/
+/* Estilos del Header (inicio)*/
+
+#section_Nav {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: flex-start; /*espacio entre los elementos*/
+    padding-left: 20px;
+    background: #E3E6F3; /*fondo del header*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); /*sombra*/
+    height: 80px; /*altura del header*/
+    z-index: 999;
+    position: sticky; /*fijar el header*/
+    top: 0; /*posición del header*/
+}
+
+.logo{
+    height: 85px; /*altura del logo*/
+}
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos del NavBar (inicio)*/
+
+#navbar {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    padding-left: 50%;
+}
+
+#navbar li {
+    list-style: none; /*quitar viñetas*/
+    padding: 0 20px; /*espacio entre los elementos*/
+}
+
+#navbar li a {
+    text-decoration: none; /*quitar subrayado*/
+    font-size: 15px; /*tamaño de la fuente*/
+    font-weight: 600; /*grosor de la fuente*/
+    color: #032a64; /*color de la fuente*/
+}
+
+#boton_NavbarIndex {
+    background-color: #9ccae0; /*color de fondo*/
+    border: none; /*quitar borde*/
+    color: #032a64; /*color de la fuente*/
+    padding: 15px 32px; /*espacio entre el contenido y el borde*/
+    text-align: center; /*alinear el texto al centro*/
+    text-decoration: none; /*quitar subrayado*/
+    display: inline-block; /*mostrar en línea*/
+    font-size: 15px; /*tamaño de la fuente*/
+    margin: 4px 2px; /*espacio entre los elementos*/
+    cursor: pointer; /*cursor*/
+    border-radius: 10px; /*bordes redondeados*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /*sombra*/
+    transition: transform 0.3s; /*transición*/
+    width: 166px;
+}
+
+#boton_NavbarIndex:active {
+    transform: scale(1.1); /*escalar*/
+}
+
+#boton_NavbarIndex:hover {
+    transform: scale(1.1); /*escalar*/
+}
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos footer*/
+
+/* */
+.footer_container {
+    display: flex;
+    justify-content: space-between; /*espacio entre los elementos*/
+    text-align: center; /*alinear el texto al centro*/
+    align-items: center; /*centrar verticalmente*/
+    padding: 0px; /*espacio entre el contenido y el borde*/
+    font-size: 14px;     /*tamaño de la fuente*/
+    position: static; /*posición del footer*/
+    width: 100%; /*ancho del footer*/
+    height: 80px; /*altura del footer*/
+    padding: 10px 20px; /*espacio entre el contenido y el borde*/
+}
+
+.footer_container {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    justify-content: center; /*espacio entre los elementos*/
+    flex-wrap: wrap;
+}
+
+.footer_container p:first-child {
+    margin-right: 20%; /*espacio entre los elementos*/
+}
+
+.footer_container p:last-child {
+    margin-left: 20%; /*espacio entre los elementos*/
+}
+
+/* --------------------------------------------------------------------------------*/
+/*Redes sociales*/
+
+.redes_sociales {
+    display: flex; /*flexbox*/
+    justify-content: center; /*espacio entre los elementos*/
+    margin-bottom: 10px; /*espacio entre los elementos*/
+    align-items: center; /*centrar verticalmente*/
+}
+
+.redes_sociales a {
+    display: flex; /*flexbox*/
+    align-items: center; /*centrar verticalmente*/
+    margin: 0 10px; /*espacio entre los elementos*/
+}
+
+.redes_sociales img {
+    width: 30px; /*ancho de la imagen*/
+    height: 30px; /*altura de la imagen*/
+    justify-content: left; /*espacio entre los elementos*/
+}
+
+
+
+/* --------------------------------------------------------------------------------*/
+/* Estilo carousel*/
+
+#carousel_Index {
+    margin-bottom: 50px; /*espacio entre los elementos*/
+}
+
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos Productos Destacados Index*/
+
+.container_Index {
+    text-align: center; /*alinear el texto al centro*/
+}
+
+.header_verTodos {
+    display: flex;
+    justify-content: center; /*espacio entre los elementos*/
+}
+
+.header_content {
+    flex: 1; /*tamaño de flexbox*/
+}
+
+.section_link {
+    text-align: right;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.section_link:hover {
+    background-color: #45a049;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 10px; /* Modificar el valor del margen */
+}
+
+.producto {
+    width: calc(33.33% - 20px); /* Modificar el ancho del producto */
+    padding: 20px;
+    margin-bottom: 10px; /* Modificar el valor del margen inferior */
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.producto img {
+    width: 100%;    
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin-top: 0;
+}
+
+.producto p {
+    margin-bottom: 10px;
+}
+
+.producto button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #45a049;
+}
+
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos del formulario de Contacto */
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input:required,
+select:required,
+textarea:required {
+    border-color: #ff0000;
+}
+
+input:required:focus,
+select:required:focus,
+textarea:required:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+}
+
+/*espacio para que el footer baje*/
+.espacio_Contacto{
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos de Productos */
+
+* {
+    box-sizing: 0;
+    /*tamaño de la caja*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*fuente*/
+}
+
+.container_Productos {
+    display: flex;
+    /*flexbox*/
+}
+
+#imgProducto {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.productos {
+    background-color: rgba(0, 0, 0, 0); /* Cambia el último valor (0.5) para ajustar la transparencia */
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.producto1 {
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.producto1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #000000;
+}
+
+.barraLateral {
+    width: 20%;
+    background-color: #f2f2f2;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.barraLateral h4 {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.barraLateral a {
+    text-decoration: none;
+    color: #1a1a1a;
+    margin: 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    width: 150px;
+    height: 40px;
+    background-color: #e3f2f3;
+    order: 2;
+}
+
+.paginacion {
+    margin-left: 25%;
+}
+
+/* --------------------------------------------------------------------------------*/
+/* Estilos de pagina Quienes somos  abajo */
+
+
+/* Conteiner de Quienes somos */
+.container_QuienesSomos{
+    display: flex;
+    /*flexbox*/
+    justify-content: space-between;
+    /*espacio entre los elementos*/
+    align-items: center;
+    /*alinear elementos al centro*/
+    padding: 20px;
+    /*espacio entre el contenido y el borde*/
+    margin: 20px;
+    /*espacio entre los elementos*/
+    background-color: #f5f5f5;
+    /*color de fondo*/
+}
+
+/*section de Quienes somos */
+
+.section_QuienesSomos{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section_QuienesSomos h1{
+    font-size: 41px;
+    color: #3fb4eb;
+    font-family: '';
+    font-style: italic;
+}
+
+.section_QuienesSomos article{
+    font-size: 22px;
+    color: #1a1a1a;
+    font-family: '';
+    font-style: italic;
+}
+
+/* Identificados unico sobre imagen de Quienes somos */
+
+#imagen3{
+    width: 419px;
+    height: 319px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+/* Imagen de Quienes somos */
+.img_QuienesSomos{
+    width: 50%;
+    height: 319px;
+
+
+
+    /*flexbox*/
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.img_QuienesSomos_Derecha{
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+}
+
+
+.muchasGracias{
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------------------*/
+
+/* Estilos de pagina Login */
+
+.login_container {
+    width: 400px;
+    padding: 16px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    border-style: solid;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
