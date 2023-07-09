@@ -90,7 +90,7 @@ $mysqli->close();
 
     <!--Donde se activa el favicon-->
     <link rel="icon" href="Imgs/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/Style.css"> <!-- Conexion con archivo css-->
+    <link rel="stylesheet" href="CSS/estiloAdmin.css"> <!-- Conexion con archivo css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -117,92 +117,112 @@ $mysqli->close();
     </header>
 
     <br>
-    <h2>Panel de Administración</h2>
 
-    <h2>Bienvenido
-        <?php echo $nombreAdmin ?>
-    </h2>
+    <div class="titulosAdmin">
 
-    <h3>Crear Producto</h3>
-    <form method="POST" action="pagAdmin.php">
-        <label>Nombre:</label>
-        <input type="text" name="nombre" required><br>
+        <h2>Panel de Administración</h2>
 
-        <label>Descripción:</label>
-        <input type="text" name="descripcion" required><br>
+        <h2>¡Bienvenido
+            <?php echo $nombreAdmin ?>!
+        </h2>
 
-        <label>Precio:</label>
-        <input type="number" step="0.01" name="precio" required><br>
+    </div><br>
 
-        <label>Stock:</label>
-        <input type="number" name="stock" required><br>
+
+
+    <form class="formCrearProducto" method="POST" action="pagAdmin.php">
+        <h3>Crear Producto</h3>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required><br><br>
+
+        <label for="descripcion">Descripción:</label>
+        <input type="text" name="descripcion" required><br><br>
+
+        <label for="precio">Precio:</label>
+        <input type="number" step="0.01" name="precio" required><br><br>
+
+        <label for="stock">Stock:</label>
+        <input type="number" name="stock" required><br><br>
 
         <input type="submit" name="crear" value="Crear">
     </form>
+    <br>
 
+    <div class="formMostrarProducto">
 
-    <!-- Productos mostrados en una tabla -->
-    <h3>Productos</h3>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Descripción</th>
-            <th>Precio</th>
-            <th>Stock</th>
-            <th>Acciones</th>
-        </tr>
-        <!-- Mostrar todos los productos, recorriendo el arreglo -->
-        <?php foreach ($productos as $producto): ?>
+        <!-- Productos mostrados en una tabla -->
+        <h3>Productos</h3>
+        <table>
             <tr>
-                <td>
-                    <?php echo $producto['ID']; ?>
-                </td>
-                <td>
-                    <?php echo $producto['Nombre']; ?>
-                </td>
-                <td>
-                    <?php echo $producto['Descripcion']; ?>
-                </td>
-                <td>
-                    <?php echo $producto['Precio']; ?>
-                </td>
-                <td>
-                    <?php echo $producto['Stock']; ?>
-                </td>
-                <td>
-                    <form method="POST" action="pagAdmin.php">
-                        <input type="hidden" name="id" value="<?php echo $producto['ID']; ?>">
-                        <input type="submit" name="eliminar" value="Eliminar">
-                    </form>
-                </td>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Acciones</th>
             </tr>
-        <?php endforeach; ?>
-    </table>
+            <!-- Mostrar todos los productos, recorriendo el arreglo -->
+            <?php foreach ($productos as $producto): ?>
+                <tr>
+                    <td>
+                        <?php echo $producto['ID']; ?>
+                    </td>
+                    <td>
+                        <?php echo $producto['Nombre']; ?>
+                    </td>
+                    <td>
+                        <?php echo $producto['Descripcion']; ?>
+                    </td>
+                    <td>
+                        <?php echo $producto['Precio']; ?>
+                    </td>
+                    <td>
+                        <?php echo $producto['Stock']; ?>
+                    </td>
+                    <td>
+                        <form method="POST" action="pagAdmin.php">
+                            <input type="hidden" name="id" value="<?php echo $producto['ID']; ?>">
+                            <input type="submit" name="eliminar" value="Eliminar">
+                        </form>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+
+    </div>
 
 
-    <!-- formulario actualizar Producto -->
-    <h3>Actualizar Producto</h3>
-    <form method="POST" action="pagAdmin.php">
-        <label>ID:</label>
-        <input type="number" name="id" required><br>
 
-        <label>Nombre:</label>
-        <input type="text" name="nombre" required><br>
+    <br>
 
-        <label>Descripción:</label>
-        <input type="text" name="descripcion" required><br>
+    <div class="formActualizarProducto">
 
-        <label>Precio:</label>
-        <input type="number" step="0.01" name="precio" required><br>
+        <!-- formulario actualizar Producto -->
+        <h3>Actualizar Producto</h3>
+        <form method="POST" action="pagAdmin.php">
+            <label>ID:</label>
+            <input type="number" name="id" height="10px" required><br><br>
 
-        <label>Stock:</label>
-        <input type="number" name="stock" required><br>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required><br><br>
 
-        <input type="submit" name="actualizar" value="Actualizar">
-    </form>
+            <label>Descripción:</label>
+            <input type="text" name="descripcion" required><br><br>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <label>Precio:</label>
+            <input type="number" step="0.01" name="precio" required><br><br>
+
+            <label>Stock:</label>
+            <input type="number" name="stock" required><br><br>
+
+            <input type="submit" name="actualizar" value="Actualizar">
+        </form>
+
+    </div>
+
+
+
+
     <br><br><br><br><br><br><br><br><br><br><br>
 
 
@@ -219,8 +239,8 @@ $mysqli->close();
             <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
             <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
             <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
-            <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
-                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>
+            <a href="https://github.com/Anbs12/Analistas.git"><img src="Imgs/github.png" alt="GitHub"></a>
+            <p>Creado por Anubis Montero y Antonella Nattino</p>
         </div>
         <p>Todos los derechos reservados © 2023</p>
     </footer>

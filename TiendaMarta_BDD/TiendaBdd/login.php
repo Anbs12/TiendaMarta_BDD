@@ -54,8 +54,8 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Donde se activa el favicon-->
-    <link rel="icon" href="Imgs/favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/Style.css"> <!-- Conexion con archivo css-->
+    <link rel="icon" href="Imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/estiloLogin.css"> <!-- Conexion con archivo css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -80,22 +80,36 @@ if (isset($_POST['submit'])) {
         </section>
     </header>
 
-    <div class="login_container">
 
+
+
+
+    <form id="loginContainer" method="POST" action="login.php">
         <h1>Iniciar sesión</h1>
-        <form method="POST" action="login.php">
-            <label name="email">Email:</label>
+
+        <div class="sesion">
+            <label for="email">Email:</label>
             <input type="email" name="email" required=""><br>
+        </div>
 
-            <label name="password">Password:</label>
+        <div class="sesion">
+            <label for="password">Password:</label>
             <input type="password" name="password" required=""><br>
+        </div>
 
+        <div class="submit">
             <input type="submit" name="submit" value="Iniciar sesión">
-        </form>
+        </div>
 
-    </div>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </form>
+
+
+
+
+
+
+
     <br><br><br><br><br><br><br><br><br><br><br>
 
 
@@ -112,8 +126,8 @@ if (isset($_POST['submit'])) {
             <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
             <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
             <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
-            <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
-                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>
+            <a href="https://github.com/Anbs12/Analistas.git"><img src="Imgs/github.png" alt="GitHub"></a>
+            <p>Creado por Anubis Montero y Antonella Nattino</p>
         </div>
         <p>Todos los derechos reservados © 2023</p>
     </footer>

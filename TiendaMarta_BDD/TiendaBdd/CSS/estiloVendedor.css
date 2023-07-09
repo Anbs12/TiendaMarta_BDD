@@ -432,13 +432,22 @@ textarea:required:focus {
     text-align: center;
 }
 
-/* --------------------------------------------------------------------------------*/
 
-/* Estilos de pagina Login */
+/* Titulos y parrafos centrados, fondo color gris claro, anunciando bienvenida del vendedor, cuadro con sombre, clase llamada vendedor */
 
-#loginContainer{
+.vendedor{
     background-color: #f5f5f5;
-    border-radius: 12px;
-    border-style: solid;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.3s;
 }
+
+.vendedor:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #000000;
+}
+
+/* --------------------------------------------------------------------------------*/
