@@ -169,8 +169,8 @@ session_start();
       <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
       <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
       <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
-      <a href="https://github.com/Anbs12/Analistas.git"><img src="Imgs/github.png" alt="GitHub"></a>
-      <p>Creado por Anubis Montero y Antonella Nattino</p>
+      <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
+                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>
     </div>
     <p>Todos los derechos reservados © 2023</p>
   </footer>

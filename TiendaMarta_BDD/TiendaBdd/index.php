@@ -49,13 +49,13 @@ session_start();
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="Imgs/bannerDespacho.jpg" class="d-block w-100" alt="...">
+                    <img src="Imgs/banner1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Imgs/bannerConfort.jpg" class="d-block w-100" alt="...">
+                    <img src="Imgs/banner2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Imgs/bannerPink.jpg" class="d-block w-100" alt="...">
+                    <img src="Imgs/banner3.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -88,26 +88,26 @@ session_start();
 
         <div class="productos">
             <div class="producto">
-                <img src="Imgs/ariel.jpg" alt="Producto 1">
-                <a>ARIEL</a>
-                <h5>Detergente en capsulas</h5>
-                <p>Descripción del producto 1.</p>
+                <img src="Imgs/sahnenuss.jpg" alt="Producto 1">
+                <a>NESTLÉ</a>
+                <h5>Chocolate Sahne-Nuss</h5>
+                <p>Barra 250gr</p>
                 <button>Agregar al carrito</button>
             </div>
 
             <div class="producto">
-                <img src="Imgs/tide.jpg" alt="Producto 2">
-                <a>TIDE</a>
-                <h5>Pods Detergente en capsulas</h5>
-                <p>Descripción del producto 2.</p>
+                <img src="Imgs/oreo.jpg" alt="Producto 2">
+                <a>OREO</a>
+                <h5>Pack 3 Chocolate Oreo bolita</h5>
+                <p>Bolsa 10 unidades</p>
                 <button>Agregar al carrito</button>
             </div>
 
             <div class="producto">
-                <img src="Imgs/trapero.jpg" alt="Producto 2">
-                <a>VILEDA</a>
-                <h5>Balde con Pedal Easy Wring & Clean</h5>
-                <p>Descripción del producto 2.</p>
+                <img src="Imgs/safari.jpg" alt="Producto 2">
+                <a>CALAF</a>
+                <h5>PACK 3 CHOCOLATE SAFARI</h5>
+                <p>Display 24 Unidades 20gr.</p>
                 <button>Agregar al carrito</button>
             </div>
 
@@ -119,8 +119,8 @@ session_start();
                 <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
                 <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
                 <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
-                <a href="https://github.com/Anbs12/Analistas.git"><img src="Imgs/github.png" alt="GitHub"></a>
-                <p>Creado por Anubis Montero y Antonella Nattino</p>
+                <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
+                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>
             </div> 
             <p>Todos los derechos reservados © 2023</p>
         </footer>
