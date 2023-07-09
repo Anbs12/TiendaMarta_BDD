@@ -21,7 +21,7 @@ $nombreVendedor = $_SESSION['user'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Donde se activa el favicon-->
-    <link rel="icon" href="Imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Imgs/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="CSS/Style.css"> <!-- Conexion con archivo css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
