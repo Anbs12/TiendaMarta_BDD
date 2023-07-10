@@ -52,17 +52,16 @@ session_start();
     <!--Barra lateral estilo menu -->
     <aside class="barraLateral">
       <div class="columna">
-        <h4> ¿Qué busca? </h4>
+        <h4>CATÁLOGO</h4>
         <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
-          <a class="p-1 rounded" href="#simple-list-item-1">Bolsas de basura</a>
-          <a class="p-1 rounded" href="#simple-list-item-1">Detergente líquido</a>
-          <a class="p-1 rounded" href="#simple-list-item-2">Escobillas</a>
-          <a class="p-1 rounded" href="#simple-list-item-3">Escobillones</a>
-          <a class="p-1 rounded" href="#simple-list-item-4">Lavalozas</a>
-          <a class="p-1 rounded" href="#simple-list-item-5">Trapero</a>
-          <a class="p-1 rounded" href="#simple-list-item-1">Trapero Premium</a>
-          <a class="p-1 rounded" href="#simple-list-item-1">Escobillon electrico</a>
-          <a class="p-1 rounded" href="#simple-list-item-2">Aspiradoras</a>
+          <a class="p-1 rounded" href="#simple-list-item-1">Chocolates</a>
+          <a class="p-1 rounded" href="#simple-list-item-1">Caramelos</a>
+          <a class="p-1 rounded" href="#simple-list-item-2">Confites</a>
+          <a class="p-1 rounded" href="#simple-list-item-3">Dulces</a>
+          <a class="p-1 rounded" href="#simple-list-item-4">Galletas</a>
+          <a class="p-1 rounded" href="#simple-list-item-5">Packs</a>
+          <a class="p-1 rounded" href="#simple-list-item-1">Snacks</a>
+          <a class="p-1 rounded" href="#simple-list-item-1">Masticables</a>
         </div>
       </div>
     </aside>
@@ -71,24 +70,24 @@ session_start();
 
     <section class="productos">
       <div class="producto1">
-        <img src="Imgs/BolsaBasura_Producto1.jpg" id="imgProducto">
-        <h3>Bolsas de Basura</h3>
-        <p>1 pack de bolsas de basuras</p>
-        <p>Precio: 2000$</p>
+        <img src="Imgs/bonbonbum.jpg" id="imgProducto">
+        <h3>CARAMELO BON BON BUM FRESA</h3>
+        <p>BOLSA CHUPETES 24 UNIDADES</p>
+        <p>$1.890</p>
         <button>Añadir al carrito</button>
       </div>
       <div class="producto1">
-        <img src="Imgs/detergente_1.png" id="imgProducto">
-        <h3>Detergente Bio Bio - Doble Pack</h3>
-        <p>Dos detergentes Bio Bio alta calidad</p>
-        <p>Precio: 2400$</p>
+        <img src="Imgs/frugele.jpg" id="imgProducto">
+        <h3>GOMITAS FRUGELÉ</h3>
+        <p>BOLSA 200 UNIDADES</p>
+        <p>$3.790</p>
         <button>Añadir al carrito</button>
       </div>
       <div class="producto1">
-        <img src="Imgs/detergenteLiquido1.jpg" id="imgProducto">
-        <h3>Detergente Liquido 1lt</h3>
-        <p>Detergente Ace de buena calidad</p>
-        <p>Precio: 1500$</p>
+        <img src="Imgs/galletas.jpg" id="imgProducto">
+        <h3>GALLETA DINOSAURIOS VAINILLA</h3>
+        <p>35 GR</p>
+        <p>$180</p>
         <button>Añadir al carrito</button>
       </div>
     </section>
@@ -97,24 +96,24 @@ session_start();
 
     <section class="productos">
       <div class="producto1">
-        <img src="Imgs/escobilla1.png" id="imgProducto">
-        <h3>Escobilla individual</h3>
-        <p>Una escobilla individual</p>
-        <p>Precio: 1000$</p>
+        <img src="Imgs/minidonuts.jpg" id="imgProducto">
+        <h3>GALLETA MINI DONUTS</h3>
+        <p>40 GR</p>
+        <p>$240</p>
         <button>Añadir al carrito</button>
       </div>
       <div class="producto1">
-        <img src="Imgs/EscobillaLimpiaFondo1.jpg" id="imgProducto">
-        <h3>Escobilla Limpia fondo</h3>
-        <p>Una escobilla para usar en un trapero moderno</p>
-        <p>Precio: 4000$</p>
+        <img src="Imgs/mym.jpg" id="imgProducto">
+        <h3>CHOCOLATE M&M PEANUT</h3>
+        <p>49,3 GR</p>
+        <p>$890</p>
         <button>Añadir al carrito</button>
       </div>
       <div class="producto1">
-        <img src="Imgs/Lavaloza1.jpg" id="imgProducto">
-        <h3>Lavaloza 1lt</h3>
-        <p>Lavaloza simple y barata.</p>
-        <p>Precio: 1000$</p>
+        <img src="Imgs/selz.jpg" id="imgProducto">
+        <h3>GALLETA SELZ CLÁSICO</h3>
+        <p>35 GR</p>
+        <p>$210</p>
         <button>Añadir al carrito</button>
       </div>
     </section>
@@ -123,24 +122,24 @@ session_start();
 
     <section class="productos">
       <div class="producto1">
-        <img src="Imgs/lavalozas_3.jpg" id="imgProducto">
-        <h3>Lavaloza 2lts</h3>
-        <p>Lavaloza de 2lts, alta calidad</p>
-        <p>Precio: 3000$</p>
+        <img src="Imgs/skittles.jpg" id="imgProducto">
+        <h3>SKITTLES ORIGINAL</h3>
+        <p>61,5 GR</p>
+        <p>$890</p>
         <button>Añadir al carrito</button>
       </div>
       <div class="producto1">
-        <img src="Imgs/limpiaPisos1Pack.jpg" id="imgProducto">
-        <h3>Limpia pisos- Pack de 5</h3>
-        <p>Increible pack de 5 limpia pisos.</p>
-        <p>Precio: 7000$</p>
+        <img src="Imgs/sunny.jpg" id="imgProducto">
+        <h3>CALUGAS SUNY</h3>
+        <p>BOLSA 360 GR</p>
+        <p>$2.230</p>
         <button>Añadir al carrito</button>
       </div>
       <div class="producto1">
-        <img src="Imgs/TraperoConBalde1.jpg" id="imgProducto">
-        <h3>Trapero con cubeta incluida</h3>
-        <p>Trapero que incluye una cubeta de alta calidad</p>
-        <p>Precio: 10000$</p>
+        <img src="Imgs/super8.jpg" id="imgProducto">
+        <h3>OBLEA SUPER 8</h3>
+        <p>DISPLAY 24 UNIDADES</p>
+        <p>$5.290</p>
         <button>Añadir al carrito</button>
       </div>
     </section>
@@ -166,11 +165,11 @@ session_start();
   <footer class="footer_container">
     <div class="redes_sociales">
       <p text-Align="text-right">Redes sociales: </p>
-      <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
-      <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
-      <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
+      <a href="https://www.instagram.com"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
+      <a href="https://es-la.facebook.com"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
       <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
-                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>  
+                <p>Creado por Anubis Montero, Diego Vargas y Antonella Nattino</p>  
     </div>
     <p>Todos los derechos reservados © 2023</p>
   </footer>

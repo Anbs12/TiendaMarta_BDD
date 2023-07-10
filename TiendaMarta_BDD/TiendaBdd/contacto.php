@@ -28,8 +28,12 @@ session_start();
             </div>
         </section>
     </header>
-    
-    <h1>Contacto</h1>
+
+    <div style="text-align:center">
+        <h1>Formulario de Contacto</h1>
+    </div>
+
+
 
     <!-- Formulario de Contacto  ------------------------------------>
 
@@ -66,7 +70,7 @@ session_start();
     </form>
     <!-- Fin formulario contacto ----------------------------------->
 
-    
+
     <div class="espacio_Contacto">
         <!--Solo espacio-->
 
@@ -80,12 +84,12 @@ session_start();
     <footer class="footer_container">
         <div class="redes_sociales">
             <p text-Align="text-right">Redes sociales: </p>
-            <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
-            <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
-            <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
+            <a href="https://es-la.facebook.com"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
             <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
-                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>
-        </div> 
+            <p>Creado por Anubis Montero, Diego Vargas y Antonella Nattino</p>
+        </div>
         <p>Todos los derechos reservados © 2023</p>
     </footer>
     <!-------Fin del footer -------------------------------------------------------->
