@@ -1,5 +1,5 @@
 # TiendaMarta_BDD
-En este proyecto se observa una versioón de la Tienda de Marta & María con una base de datos creada, en donde tiene dos sesiones, una para Vendedores y otra para Administradores. En la página de Administradores se puede añadir un producto, ver cuáles están registrados, eliminar un producto registrado y actualizar uno ya previamente guardado, todo en la base de datos.
+En este proyecto se observa una versión de la Tienda de Marta & María con una base de datos creada, en donde tiene dos sesiones, una para Vendedores y otra para Administradores. En la página de Administradores se puede añadir un producto, ver cuáles están registrados, eliminar un producto registrado y actualizar uno ya previamente guardado, todo en la base de datos.
 
 A continuacion se cargan imagenes:
 
