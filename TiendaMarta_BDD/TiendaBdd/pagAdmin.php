@@ -89,7 +89,7 @@ $mysqli->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Donde se activa el favicon-->
-    <link rel="icon" href="Imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Imgs/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="CSS/estiloAdmin.css"> <!-- Conexion con archivo css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -239,8 +239,8 @@ $mysqli->close();
             <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
             <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
             <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
-            <a href="https://github.com/Anbs12/Analistas.git"><img src="Imgs/github.png" alt="GitHub"></a>
-            <p>Creado por Anubis Montero y Antonella Nattino</p>
+            <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
+                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>
         </div>
         <p>Todos los derechos reservados © 2023</p>
     </footer>

@@ -9,7 +9,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Imgs/favicon.ico" type="image/x-icon"> <!--Donde se activa el favicon-->
+    <link rel="icon" href="Imgs/favicon.jpg" type="image/x-icon"> <!--Donde se activa el favicon-->
     <link rel="stylesheet" href="CSS/Style.css"> <!-- Conexion con archivo css-->
     <title>Contacto</title>
 </head>
@@ -83,8 +83,8 @@ session_start();
             <a href="#"><img src="Imgs/twitter_logo.png" alt="Twitter"></a>
             <a href="#"><img src="Imgs/instagram_logo.png" alt="Instagram"></a>
             <a href="#"><img src="Imgs/facebook_logo.png" alt="Facebook"></a>
-            <a href="https://github.com/Anbs12/Analistas.git"><img src="Imgs/github.png" alt="GitHub"></a>
-            <p>Creado por Anubis Montero y Antonella Nattino</p>
+            <a href="https://github.com/Anbs12/TiendaMarta_BDD"><img src="Imgs/github.png" alt="GitHub"></a>
+                <p>Creado por Anubis Montero, Diego Vargsa y Antonella Nattino</p>
         </div> 
         <p>Todos los derechos reservados © 2023</p>
     </footer>
